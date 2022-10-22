@@ -117,7 +117,6 @@
 
 .section-title__section_theme_dark {
   color: white;
-  padding-top: 90px;
   position: relative;
   z-index: 2;
 }
@@ -148,7 +147,6 @@
 }
 
 .table_theme_dark {
-  padding-bottom: 90px;
   position: relative;
   z-index: 2;
 }
@@ -239,13 +237,16 @@
 
 .kaufman {
   background-color: #1f1f1f;
-  
+  overflow: hidden;
   margin-top: 100px;
   position: relative;
   z-index: 0;
 }
 
 .kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
   top: 0;
   right: -210px;
