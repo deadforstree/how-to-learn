@@ -1,13 +1,15 @@
+body {
+  overflow-x: hidden;
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-
+  margin: 0px auto;
 }
 
 .header {
@@ -271,16 +273,18 @@
 }
 
 .footer__column_content_copyright {
-display: flex;
-width: 711px;
-flex-direction: column;
-justify-content: space-between;
+  display: flex;
+  width: 711px;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
+
 .logo_place_footer {
   display: flex;
   float: left top;
 }
+
 .footer__author {
   display: flex;
   margin: 18px 0;
