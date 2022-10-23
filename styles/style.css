@@ -282,7 +282,7 @@ body {
 
 .logo_place_footer {
   display: flex;
-  float: left top;
+  float: left;
 }
 
 .footer__author {
