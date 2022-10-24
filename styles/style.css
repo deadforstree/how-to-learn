@@ -22,6 +22,11 @@ body {
   display: flex;
 }
 
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -47,6 +52,8 @@ body {
 }
 
 .header__main-illustration {
+  width: 765px;
+  height: 608px;
   position: absolute;
   right: 0px;
   bottom: 0px;
