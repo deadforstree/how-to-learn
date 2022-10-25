@@ -1,5 +1,5 @@
-body {
-  overflow-x: hidden;
+.body {
+  margin: 0px auto;
 }
 .page {
   min-width: 1100px;
@@ -9,7 +9,8 @@ body {
   /* выше установили ограничение по максимальной ширине */
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  margin: 0px auto;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -132,7 +133,7 @@ body {
 }
 
 .section-subtitle {
-  width: 60%;
+  width: 40%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -144,6 +145,7 @@ body {
   color: white;
   position: relative;
   z-index: 2;
+  
 }
 
 .table {
