@@ -138,7 +138,7 @@ body {
 
 .section-title {
   width: 60%;
-  max-width: 500px;
+  max-width: 800px;
   padding-bottom: 20px;
   line-height: 1.15;
   font-size: 60px;
@@ -309,10 +309,7 @@ body {
 }
 
 .footer__column_content_copyright {
-  display: flex;
   width: 711px;
-  justify-content: space-between;
-
 }
 
 .logo_place_footer {
@@ -334,11 +331,6 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
-}
-
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__column-heading {
@@ -364,12 +356,6 @@ body {
   color: #f2f2f2;
   text-decoration: none;
 }
-
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer__social-icon {
   padding-right: 10px;
 }
