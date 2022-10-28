@@ -188,6 +188,7 @@ body {
   width: 200px;
   position: relative;
   z-index: 2;
+  color: white;
 }
 
 .table__heading {
@@ -302,6 +303,7 @@ body {
 
 .footer__column_content_copyright {
   width: 711px;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
