@@ -22,6 +22,7 @@
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/cell/table__cell.css);
+@import url(../blocks/table/cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/heading/table__heading.css);
 @import url(../blocks/table/heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/text/table__text.css);
