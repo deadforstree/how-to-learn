@@ -1,8 +1,13 @@
 @keyframes square-turn {
-from {
-transform: rotate(0deg);
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
-to {
-transform: rotate(360deg);
-}
+
+.rotation {
+    animation: square-turn 20s linear infinite;
 }
